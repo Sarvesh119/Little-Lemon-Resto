@@ -5,6 +5,8 @@ import Bookingpage from './Bookingpage.js';
 import {Routes, Route, useNavigate} from 'react-router-dom';
 import { useReducer, useEffect } from "react";
 import ConfirmedBooking from './ConfirmedBooking.js';
+import { fetchAPI, submitAPI } from '../api';  // adjust path if needed
+
 
 const date = new Date();
 
