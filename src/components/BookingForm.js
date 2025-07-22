@@ -38,6 +38,9 @@ function BookingForm(props) {
     const occasions = [
         "Birthday",
         "Anniversary",
+        "Marrige",
+        "New Year",
+        "Graduation"
     ];
 
     function formatDate(date) {
