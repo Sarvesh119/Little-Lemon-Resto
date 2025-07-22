@@ -38,7 +38,7 @@ function BookingForm(props) {
     const occasions = [
         "Birthday",
         "Anniversary",
-        "Marrige",
+        "Wedding",
         "New Year",
         "Graduation"
     ];
